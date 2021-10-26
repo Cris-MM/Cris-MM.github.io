@@ -2,6 +2,9 @@
     header nav{
         width: 70px;
     }
+    section#main{
+        background-color:grey;
+    }
     header #menuMovil{
         display: block;
     }
