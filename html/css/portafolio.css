@@ -31,7 +31,10 @@ header #logo{
 header nav{
     margin: 10px;
     margin-right: 10%;
-    width: 560px;
+    width: 500px;
+}
+header #menuMovil{
+    display: none;
 }
 header nav ul li{
     float: left;
@@ -188,7 +191,7 @@ legend{
     width: 81%;
     height: 30px;
 }
-#sep{
+#sep, #sep2{
     width: 100%;
     height: 80px;
     background-color:rgb(219, 215, 215);
@@ -210,11 +213,11 @@ legend{
     margin-top: 100px;
     margin-left: 160px;
 }
-#der{
+footer{
     width: 100%;
-    height: 100px;
+    height: 50px;
     background-color: black;
     text-align: center;
     color: white;
-    position:absolute;
+    padding-top: 2em;
 }
