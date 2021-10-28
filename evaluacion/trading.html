@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading</title>
+    <link rel="stylesheet" href=".//css/trading.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header>
+        <div id="logo" class="item">
+            <img src="./imagenes/logo.png"/>
+        </div>
+        <nav class="item">
+            <ul id="menuWeb">
+                <li>
+                    <a href="#main" data-scroll>Inicio</a>
+                </li>
+                <li>
+                    <a href="#info" data-scroll>¿Qué es?</a>
+                </li>
+                <li>
+                    <a href="#ofrecemos">¿Qué ofrecemos?</a>
+                </li>
+                <li>
+                    <a href="#contacto" data-scroll>Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="main">
+        <img src="./imagenes/fondo.png"/>
+        <div id="prin">
+            <h2>
+                No lo pienses: ¡Hazlo! <br>
+                <a href="#contacto" class="btn btnPrin">Contactar</a>
+            </h2>
+        </div>
+    </section>
+    <section id="info">
+        <div class="col">
+            <img src="./imagenes/img1.jpg" data-aos="flip-up"/>
+        </div>
+        <div class="col">
+            <h2>¿Qué es el trading deportivo?</h2>
+            <p>
+                Es una práctica consistente en la compra y venta de apuestas por parte de los usuarios
+                de casas de apuestas de intercambio, con la finalidad de garantizar beneficios o 
+                minimizar pérdidas independientemente del resultado final de un evento deportivo.
+            </p>
+        </div>
+    </section>
+    <section id="ofrecemos">
+        <div class="prop">
+            <img src="./imagenes/oferta.png"/>
+        </div>
+        <div class="prop">
+            <h2>
+                ¿Qué ofrecemos? <br>
+            </h2>
+            <p>
+                MAYORES GANANCIAS: El trading deportivo te ofrece beneficios superiores a cualquier
+                otro modelo de negocio, las ganacias estan aseguradas.
+            </p>
+            <p>
+                PROFESIONALISMO: Somos una empresa que se rige bajo un sistema de Trading Deportivo 
+                a través de algoritmos matemáticos.
+            </p>
+        </div>
+    </section>
+    <div id="contacto">
+        <div class="col">
+            <img src="./imagenes/contacto.png" data-aos="slide-right"/>
+        </div>
+        <div class="col">
+            <fieldset>
+                <legend>Contácto <i class="fas fa-user"></i></legend>
+                <div class="campos">
+                    <label>Nombre</label><br>
+                    <input type="text">
+                </div>
+                <div class="campos">
+                    <label>Email</label><br>
+                    <input type="text">
+                </div>
+                <div class="campos">
+                    <label>Teléfono</label><br>
+                    <input type="text">
+                </div>
+                <div class="campos">
+                    <label>Comentario</label><br>
+                    <textarea name="" id="" cols="55" rows="10"></textarea>
+                </div>
+                <div class="campos">
+                    <a href="a" class="btn btnEnviar">Enviar</a>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+    <footer>
+        <h5>
+            Todos los derechos reservados <br>
+            2021
+        </h5>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+      AOS.init();
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+</body>
+</html>
