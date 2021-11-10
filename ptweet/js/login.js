@@ -6,7 +6,7 @@ window.onload = function(){
         let usuario = txtUsuario.value;
         let password = txtPassword.value;
         let arregloUsuarios=[
-            { id:1, nombre:"Federica peluche", imagen:"fede.jpg", username:"dedep", password:"123" },
+            { id:1, nombre:"Federica peluche", imagen:"fede.jpg", username:"fedep", password:"123" },
             { id:2, nombre:"Don Camerino", imagen:"dc.jpg", username:"camerino", password:"123" },
             { id:3, nombre:"Vivi", imagen:"vivi.jpg", username:"vivi", password:"123" }
         ];
