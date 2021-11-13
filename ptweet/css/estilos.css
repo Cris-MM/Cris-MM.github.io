@@ -179,3 +179,13 @@ main{
 .post .textTweet{
  padding-top: 10px;
 }
+.iconos{
+    display: flex;
+    color:gray;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.iconos >div:first-child{
+    margin-right: 75%
+}
