@@ -1,0 +1,87 @@
+:root{
+    --main-color:white;
+    --text1-color:black;
+    --text2-color:white;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4{
+    font-family: 'Andada Pro', serif;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 4;
+}
+header #logo{
+    margin: 5px;
+    margin-left: 10%;
+    margin-right: -250px;
+}
+header #logo img{
+    width: 6%;
+}
+header nav{
+    margin: 10px;
+    margin-right: 10%;
+    width: 500px;
+}
+header nav ul li{
+    float: left;
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 5px;
+    transition: 0.5s;
+}
+header nav ul li a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--text1-color);
+    font-weight: bolder;
+}
+header nav ul li:hover{
+    opacity: 0.6;
+}
+header nav ul li a:hover{
+    color: var(--text1-color);
+}
+section#main{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+#countries{
+    border:1px solid ;
+    height:500px;
+    width:300px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+.row .col{
+    text-align: center;
+}
+.row .col h2{
+    color: black;
+}
+.row .col h3,h4{
+    color: gray;
+}
+.row .col img{
+    width: 85%;
+}
+.l,.r,.u {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 32%;
+}
